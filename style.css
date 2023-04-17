@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.row {
+  background-color: rgb(195, 195, 195, 0.5);
+  padding: 2rem;
+}
+h3 {
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+.list-item {
+  padding: 0.5rem 0;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.userInput {
+  border: none;
+  padding: 0.5rem;
+}
+.btn-add {
+  text-decoration: none;
+  background-color: #235231;
+  color: #fff;
+  padding: 0.5rem;
+  text-align: center;
+}
